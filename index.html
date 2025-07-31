@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>情侣空间邀请</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f8f8f8;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .image {
+            max-width: 300px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .text {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #ff69b4;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="Screenshot_20250730_220423.jpg" alt="情侣空间图片" class="image">
+        <p class="ican">邀请另一半开通情侣空间，解锁完整功能</p>
+        <a href="https://ys.mihoyo.com/" class="button">去开通情侣空间</a>
+    </div>
+
+    <script>
+        // 获取按钮元素
+        var button = document.querySelector('.button');
+
+        // 给按钮添加点击事件
+        button.addEventListener('click', function() {
+            // 这里替换成你想要跳转的原神相关页面的URL
+            window.location.href = 'https://ys.mihoyo.com/';
+        });
+    </script>
+</body>
+</html>
